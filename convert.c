@@ -1,5 +1,3 @@
-#include "main.h"
-#include "stringrev.c"
 
 /*
  * _itoa -function which convert intiger to any base
