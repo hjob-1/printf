@@ -28,28 +28,28 @@ int _switch(char *buff, int *j, va_list vl, char ch)
 		case 'd': /*convert decimal*/
 			{
 				_itoa(va_arg(vl, int), tmp, 10);
-				strcpy(&buff[*j], tmp);
+				_strcpy(&buff[*j], tmp);
 				*j += strlen(tmp);
 				break;
 			}
 				case 'x': /*convert hexadecimal*/
 				{
 				_itoa(va_arg(vl, int),tmp, 16);
-				strcpy(&buff[*j], tmp);
+				_strcpy(&buff[*j], tmp);
 				*j += strlen(tmp);
 				break;
 			}
 				case 'o': /* convert octal*/
 				{
 					_itoa(va_arg(vl, int), tmp, 8);
-					strcpy(&buff[*j], tmp);
+					_strcpy(&buff[*j], tmp);
 					*j +=strlen(tmp);
 					break;
 				}
 				case 's': /*copy string*/
 				{
 					str_arg = va_arg(vl, char *);
-					strcpy(&buff[*j], str_arg);
+					_strcpy(&buff[*j], str_arg);
 					*j += strlen(str_arg);
 					break;
 				}
