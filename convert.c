@@ -1,4 +1,5 @@
-
+#include "main.h"
+#include "strrev.c"
 /*
  * _itoa -function which convert intiger to any base
  * @i:intiger
