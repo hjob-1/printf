@@ -1,4 +1,11 @@
-#include <stdlib.h>
+
+/**
+ * It reverses a string.
+ *
+ * @param str This is the string that will be reversed.
+ *
+ * @return The address of the first character in the string.
+ */
 
 char *_strrev(char *str)
 {
@@ -6,7 +13,7 @@ char *_strrev(char *str)
     int len = 0;
     char c;
     if (!str)
-        return NULL;
+        return "error";
     while (str[len] != '\0')
     {
         len++;
