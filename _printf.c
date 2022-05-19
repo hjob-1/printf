@@ -1,5 +1,5 @@
 #include <stdarg.h>
-#include <string.h>
+#include <stdio.h>
 #include "main.h"
 #include "convert.c"
 #include "strcpy.c"
