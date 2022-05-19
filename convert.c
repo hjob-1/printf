@@ -32,4 +32,3 @@ char *_itoa(int i,char *strout,int base)
 	_strrev(strout);
 	return strout;
 }
-
