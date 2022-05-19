@@ -1,10 +1,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include "main.h"
-#include "convert.c"
-#include "strcpy.c"
-#include "strlen.c"
-#include "binary.c"
+
 /**
  * The above function converts an integer to a string.
  *
